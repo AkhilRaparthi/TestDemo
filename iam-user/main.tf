@@ -1,7 +1,9 @@
 resource "aws_iam_user" "user-1" {
-  name = "akhil-1"
+  name = "aws-predator-sense-dev"
   tags = {
-    surname = "raparthi"
+    name = "Predator"
+    owner = "Akhil"
+    environment = "Dev"
   }
 }
 
@@ -12,7 +14,10 @@ resource "aws_iam_access_key" "key-1" {
 data "aws_iam_policy_document" "policy-1" {
   statement {
     effect    = "Allow"
-    actions   = ["ec2:Describe*"]
+    actions   = [
+                  "ec2:*",
+                  "iam:*"
+                ]
     resources = ["*"]
   }
 }
