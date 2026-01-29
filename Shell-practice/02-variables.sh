@@ -5,7 +5,7 @@ read USERNAME
 echo "User name is $USERNAME"
 
 echo "Enter Password: "
-read -sp PASSWORD
+read -s PASSWORD
 echo "User Password is $PASSWORD"
 
 echo "User details saved successfully"
