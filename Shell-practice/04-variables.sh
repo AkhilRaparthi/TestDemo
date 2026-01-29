@@ -2,6 +2,8 @@
 
 #special variables
 
+echo "All is well..: ADD"
+ADD=&@
 echo "All args passed to script: $@"
 echo "Number of vars passed to script: $#"
 echo "Script name: $0"
