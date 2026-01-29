@@ -1,11 +1,9 @@
 #!bin/bash/
 
-echo "Enter you name: "
-read USERNAME
-echo "User name is $USERNAME"
+PERSON1=Trump # no space between value and =
+PERSON2=Putin
 
-echo "Enter Password: "
-read -s PASSWORD
-echo "User Password is $PASSWORD"
-
-echo "User details saved successfully"
+echo "$PERSON1:: Hello $PERSON2, How are you?"
+echo "$PERSON2:: Hi $PERSON1, I am fine thanks for asking. How are you doing?"
+echo "$PERSON1:: doing fine. What are you learning $PERSON2?"
+echo "$PERSON2:: I am learning Shell. What about you?"
