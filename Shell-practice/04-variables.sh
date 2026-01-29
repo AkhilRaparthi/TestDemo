@@ -1,5 +1,7 @@
 #!/bin/bash/
 
+echo "Enter your username:" read USERNAME
+echo "Username is: $USERNAME"
 #special variables
 ADD=$@
 
