@@ -1,11 +1,7 @@
 #!/bin/bash/
 
-echo "Enter your username:" ; read USERNAME
-echo "Username is: $USERNAME"
 #special variables
-ADD=$@
 
-echo "All is well..: $ADD"
 echo "All args passed to script: $@"
 echo "Number of vars passed to script: $#"
 echo "Script name: $0"
